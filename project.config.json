@@ -1,0 +1,101 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.1",
+	"appid": "wxa32f710ad7d22b94",
+	"projectname": "%E6%88%90%E9%83%BD%E6%A0%A1%E7%A4%BE%E9%80%9A",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "职位详情",
+					"pathName": "pages/positiondetail/positiondetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "消息页面",
+					"pathName": "pages/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/seach/seach",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "金牌雇主",
+					"pathName": "pages/jinpaiemployer/jinpaiemployer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "职位列表",
+					"pathName": "pages/positionlist/positionlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "工作列表",
+					"pathName": "pages/worklist/worklist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人招聘详情",
+					"pathName": "pages/personrecruitmentdetail/personrecruitmentdetail",
+					"scene": null
+				}
+			]
+		}
+	}
+}

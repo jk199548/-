@@ -1,0 +1,82 @@
+<!--pages/jinpaiemployer/jinpaiemployer.wxml-->
+<view class='box'>
+<!-- 头部选择地区 -->
+  <view class='head'>
+    <view class='region'>
+      <picker mode='region' value='{{regionarr}}' bindchange='changeregion'>{{province}}</picker>
+      <image class='downimage' src='../../images/index/hot-detail-lookmore-icon.png' mode='aspectFit'></image>
+    </view>
+    <view class='region'>
+      <picker mode='region' value='{{regionarr}}' bindchange='changeregion'>{{city}}</picker>
+      <image class='downimage' src='../../images/index/hot-detail-lookmore-icon.png' mode='aspectFit'></image>
+    </view>
+    <view class='region'>
+      <picker mode='region' value='{{regionarr}}' bindchange='changeregion'>{{area}}</picker>
+      <image class='downimage' src='../../images/index/hot-detail-lookmore-icon.png' mode='aspectFit'></image>
+    </view>
+  </view>
+<!-- 1-3雇主的排名 -->
+  <view class='rank'>
+      <view class='rankbox-two'>
+          <image class='rank-avtar' src='../../images/employerrank/rankavtar.png'></image>
+          <text class='rank-name'>张丹丹adasdasds</text>
+      </view>
+      <image class='ranktwo-image' src='../../images/employerrank/2.png'></image>
+      <image class='rankone-image' src='../../images/employerrank/1.png'></image>
+      <image class='rankthree-image' src='../../images/employerrank/3.png'></image>
+      <view class='rankbox-one'>
+        <image class='rank-avtar' src='../../images/employerrank/rankavtar.png'></image>
+        <text class='rank-name'>成都到家的佛教是</text>
+      </view>
+      <view class='rankbox-three'>
+        <image class='rank-avtar' src='../../images/employerrank/rankavtar.png'></image>
+        <text class='rank-name'>张丹丹</text>
+      </view>
+  </view>
+
+  <!-- 4-10雇主排行 -->
+  <view class='lowerrank'>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+      <view class='lowerrank-box'>
+        <text class='lowerrank-box-num'>4</text>
+        <image class='lowerrank-box-avtar' src='../../images/index/jd.png' mode='aspectFit'></image>
+        <text class='lowerrank-box-name'>京东</text>
+        <text class='lowerrank-box-score'>88</text>
+      </view>
+  </view>
+</view>

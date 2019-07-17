@@ -1,0 +1,104 @@
+<!--pages/worklist/worklist.wxml-->
+<!-- 工作列表页面 -->
+<view class='box'>
+  <!-- 搜索框 -->
+  <view class='seach'>
+    <view class='location'>
+      <image class='location-icon' src='../../images/index/hot-detail-right-location.png'></image>
+      <text class='location-text'>成都</text>
+    </view>
+    <view class='inputbox'>
+      <image class='input-icon' src='../../images/index/seach.png'></image>
+      <input placeholder='搜索' placeholder-class='placeholder' style='width:500rpx;'></input>
+    </view>
+  </view>
+  <!-- 职位性质 -->
+  <view class='position'>
+  <view class="{{positionnatureid==index?'position-list-active':'position-list-normal'}}" wx:for="{{positionnaturelist}}" data-id="{{index}}" bindtap='choosepositionnature'>{{item}}</view>
+  </view>
+  <!-- 职位条件筛选 -->
+  <view class='position-require'>
+    <view class='position-require-choose' bindtap='tochooseposition'>
+      <text>{{zhiwei}}</text>
+      <image class='xiangxia' src='../../images/worklist/xiangxia.png'></image>
+      <image class='shuxian' src='../../images/worklist/shuxian.png'></image>
+    </view>
+    <view class='position-require-close' bindtap='zhinengpaixuclick'>
+      <text class="{{zhinengpaixuisactive?'position-require-close-active':'position-require-close-normal'}}">{{zhinengpaixu}}</text>
+      <image class='xiangxia' src="{{zhinengpaixuisactive?'../../images/worklist/xiangshang.png':'../../images/worklist/xiangxia.png'}}"></image>
+      <image class='shuxian1' src='../../images/worklist/shuxian.png'></image>
+    </view>
+    
+    <view class='position-require-shaixuan' bindtap='shaixuanclick'>
+      <text class="{{shaixuanisactive?'position-require-shaixuan-active':'position-require-shaixuan-normal'}}">{{shaixuan}}</text>
+      <image class='xiangxia' src="{{shaixuanisactive?'../../images/worklist/xiangshang.png':'../../images/worklist/xiangxia.png'}}"></image>
+    </view>
+  </view>
+  <!-- 职位展示列表 -->
+  <view class='hot-detail' bindtap='topositiondetail'>
+      <view class='hot-detail-left'>
+        <image class='hot-detail-left-images' src='../../images/index/findjob1.png' mode='scaleToFill'></image>
+      </view>
+      <view class='hot-detail-right'>
+        <text class='hot-detail-right-title'>京东物流分拣员</text>
+        <text class='hot-detail-right-price'>111元/小时</text>
+        <view class='hot-detail-right-intro'>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            五险
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+        </view>
+        <view class='hot-detail-right-avtarbox'>
+          <image class='hot-detail-right-avtar' src='../../images/index/hot-detail-avtar.png' mode='scaleToFill'></image>
+          <text class='hot-detail-right-name'>杨洋·人事</text>
+        </view>
+        <view class='conpanybox'>
+          <view class='hot-detail-right-conpanybox'>
+            <image class='hot-detail-right-conpany-icon' src='../../images/index/hot-detail-right-conpany.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-conpany-name'>成都怪糖科公司</text>
+          </view>
+          <view class='hot-detail-right-locationbox'>
+            <image class='hot-detail-right-location-icon' src='../../images/index/hot-detail-right-location.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-location-name'>武侯区晋阳</text>
+          </view>
+        </view>
+      </view>
+    </view>
+</view>
+
+<!-- 显示智能排序的选择列表 -->
+    <view class='modal-mask' bindtap='showmodal' wx:if='{{iszhineng}}' catchtouchmove='true'></view>
+    <view class='zhinengxuanzhelist' wx:if='{{iszhineng}}' >
+      <view class='list' wx:for="{{zhinengpaixulist}}" data-id='{{index}}' bindtap='choosezhinenglist' catchtouchmove='true'>{{item}}</view>
+    </view>
+
+    <!-- 显示筛选的条件列表 -->
+    <view class='modal-mask' bindtap='showmodal' wx:if="{{isshaixuan}}" catchtouchmove='true'></view>
+    <view class='shaixuanlist' wx:if='{{isshaixuan}}' catchtouchmove='true'>
+      <view class='sex'>性别</view>
+      <radio-group class="radio" bindchange="radiochange">
+        <radio wx:for="{{radioarr}}" value='{{item}}'>{{item}}</radio>
+      </radio-group>
+      <view class='workex'>工作经验</view>
+      <view class='workex-list'>
+        <view class="{{workexid==index?'work-list-name-active':'work-list-name-normal'}}" wx:for="{{workex}}" bindtap='chooseworkex' data-id="{{index}}">{{item}}</view>
+      </view>
+      <!-- 模态框底部按钮 -->
+      <view class='modal-btn'>
+        <view class='reset-btn'>重置</view>
+        <view class='confirm-btn'>确定</view>
+      </view>
+    </view>
+
+    

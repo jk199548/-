@@ -1,0 +1,48 @@
+<!--pages/seach/seach.wxml-->
+<!-- 搜索页面 -->
+<view class='box'>
+  <view class='seach'>
+    <view class='location'>
+      <image class='location-icon' src='../../images/index/hot-detail-right-location.png'></image>
+      <text class='location-text'>成都</text>
+    </view>
+    <view class='inputbox'>
+      <image class='input-icon' src='../../images/index/seach.png'></image>
+      <input placeholder='搜索' placeholder-class='placeholder'></input>
+    </view>
+    <view class='seach-btn'>搜索</view>
+  </view>
+  <view class='seachmore'>搜索得最多的</view>
+  <view class='seachmore-list'>
+    <view class='seachmore-list-text'>
+      京东哎哎哎哎哎
+    </view>
+    <view class='seachmore-list-text'>
+      京东阿打算
+    </view>
+    <view class='seachmore-list-text'>
+      京东厄齐尔
+    </view>
+    <view class='seachmore-list-text'>
+      京东外文
+    </view>
+    <view class='seachmore-list-text'>
+      京东啊啊啊啊啊
+    </view>
+    <view class='seachmore-list-text'>
+      京东
+    </view>
+    <view class='seachmore-list-text'>
+      京东吧
+    </view>
+  </view>
+  <view class='seach-history'>
+    历史记录
+  </view>
+  <view class='seach-list'>
+    <text>盒马生鲜</text>
+  </view>
+  <view class='clear-history'>
+    清除历史记录
+  </view>
+</view>

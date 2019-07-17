@@ -1,0 +1,137 @@
+/* pages/jinpaiemployer/jinpaiemployer.wxss */
+.head{
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.region{
+  padding-left:50rpx;
+  padding-right: 40rpx; 
+  height: 60rpx;
+  border: 1rpx solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.region picker{
+  font-size: 28rpx;
+  color: #333333;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.downimage{
+  width: 24rpx;
+  height: 12rpx;
+  margin-top: 25rpx;
+  margin-left: 5rpx;
+}
+.rank{
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.rankbox-two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 16rpx;
+  top:200rpx;
+}
+.rankbox-three{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  right: 23rpx;
+  top: 202rpx;
+}
+.rankbox-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 258rpx;
+  top: 121rpx;
+}
+.rank-avtar{
+  width: 152rpx;
+  height: 152rpx;
+}
+
+.rank-name{
+  font-size: 28rpx;
+  color: #333333;
+  display: block;
+  width: 230rpx;
+  text-overflow: hidden;
+  text-align: center;
+}
+.ranktwo-image{
+  width: 46rpx;
+  height: 58rpx;
+  position: absolute;
+  left: 182rpx;
+  top: 207rpx;
+}
+.rankone-image{
+  width: 46rpx;
+  height: 58rpx;
+  position: absolute;
+  left: 424rpx;
+  top: 117rpx;
+  z-index: 99;
+}
+.rankthree-image{
+  width: 46rpx;
+  height: 58rpx;
+  position: absolute;
+  left: 664rpx;
+  top: 207rpx;
+  z-index: 99;
+}
+.lowerrank-box{
+  width: 690rpx;
+  height: 110rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 30rpx;
+  position: relative;
+}
+.lowerrank-box-num{
+  font-size: 30rpx;
+  color: #333333;
+  
+}
+.lowerrank-box-avtar{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 33rpx;
+  position: absolute;
+  left: 72rpx;
+}
+.lowerrank-box-name{
+  font-size: 30rpx;
+  color: #333333;
+  position: absolute;
+  left: 221rpx;
+}
+.lowerrank-box-score{
+  color: #FC7001;
+  font-size: 30rpx;
+  position: absolute;
+  right: 0;
+}

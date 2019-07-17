@@ -1,0 +1,21 @@
+<!-- 职位列表 -->
+<view class='box'>
+  <view class='top'>
+    <view class='haschooseposition'>已选岗位</view>
+    <view class='haschooseposition-list'>
+      <view class='haschooselist-list-name' wx:for="{{chooselist}}" bindtap='delitem' data-id='{{index}}'>{{item}}</view>
+    </view>
+  </view>
+  <view class='positionlist'>
+    <view class='positionlist-left'>
+      <view class="{{selectedid==index?'positionlist-left-list-active':'positionlist-left-list-normal'}}" wx:for="{{positionlist}}" data-id='{{index}}' bindtap='showright'>{{item}}</view>
+    </view>
+    <view class='positionlist-right' hidden='{{showright}}'>
+      <view class='position-right-list' wx:for="{{positionlistright}}" bindtap='addtochooselist' data-id="{{index}}">{{item}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="{{ischoose?'completebtn-active':'completebtn-normal'}}" bindtap='choosecomplete'>
+  完成
+</view>

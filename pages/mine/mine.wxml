@@ -1,0 +1,114 @@
+<view class='bigbox'>
+  <!-- 头部 -->
+<view class='box'>
+  <view class="mine-banner">
+    <image class='banner' src="../../images/mine/banner.png"></image>
+  </view>
+  <view class='head-box'>
+    <image class='head-banner' src='../../images/mine/head-banner.png' mode='scaleToFill'></image>
+    <view class='head-avtar-box'>
+      <image class='head-avtar' src='../../images/index/avtar.png' mode='scaleToFill'></image>
+    </view>
+    <view class='head-name'>
+      <text class='head-name-text'>带眼泪的鱼</text>
+    </view>
+    <image class='bianji' src='../../images/mine/bianji.png'></image>
+    <view class='head-phonenum'>
+      <text class='phonenum'>13113147778</text>
+      <text class='pingjia'>评价: 99分</text>
+    </view>
+    <view class='head-intro'>
+      <text class='head-sex'>男</text>
+      |
+      <text class='head-age'>6岁</text>
+      |
+      <text class='head-school'>高中</text>
+      |
+      <text class='head-ex'>5年经验</text>
+    </view>
+    <view class='head-money'>
+      <view class='head-money-left'>
+        <image class='head-money-left-icon' src='../../images/mine/yue.png' mode='scaleToFill'></image>
+        <text class='head-money-left-text'>余额: <text class='head-money-left-money'>12,980</text>.00<text></text>
+        </text>
+      </view>
+      <image src='../../images/mine/fenge.png' style='width:1rpx;height:90rpx;'></image>
+      <view class='head-money-right'>
+        <image class='head-money-left-icon' src='../../images/mine/yue.png' mode='scaleToFill'></image>
+        <text class='head-money-left-text'>推广奖励: <text class='head-money-left-money'>12,980</text>.00<text></text>
+        </text>
+        
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<!-- 个人信息入口 -->
+  <view class='personal-box'>
+    <view class='personal-msg'>
+      <view class='personal-msg-box'>
+        <image class='personal-msg-box-icon' src='../../images/mine/shiming.png'></image>
+        <text class='personal-msg-box-text'>实名认证</text>
+        <image class='personal-msg-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='personal-msg-box'>
+        <image class='personal-msg-box-icon' src='../../images/mine/shiming.png'></image>
+        <text class='personal-msg-box-text'>实名认证</text>
+        <image class='personal-msg-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='personal-msg-box'>
+        <image class='personal-msg-box-icon' src='../../images/mine/shiming.png'></image>
+        <text class='personal-msg-box-text'>实名认证</text>
+        <image class='personal-msg-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+    </view>
+  </view>
+<!-- 我的工作入口 -->
+  <view class='minejob-box'>
+    <view class='minejob-job'>
+      <view class='minejob-job-box'>
+        <image class='minejob-job-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='minejob-job-box-text'>我的工作</text>
+        <image class='minejob-job-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='minejob-job-box'>
+        <image class='minejob-job-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='minejob-job-box-text'>我的工作</text>
+        <image class='minejob-job-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='minejob-job-box'>
+        <image class='minejob-job-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='minejob-job-box-text'>我的工作</text>
+        <image class='minejob-job-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='minejob-job-box'>
+        <image class='minejob-job-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='minejob-job-box-text'>我的工作</text>
+        <image class='minejob-job-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+    </view>
+  </view>
+<!-- 关于我们入口 -->
+  <view class='aboutus-box'>
+    <view class='aboutus-mine'>
+      <view class='aboutus-mine-box'>
+        <image class='aboutus-mine-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='aboutus-mine-box-text'>意见反馈</text>
+        <image class='aboutus-mine-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='aboutus-mine-box'>
+        <image class='aboutus-mine-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='aboutus-mine-box-text'>意见反馈</text>
+        <image class='aboutus-mine-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+      <view class='aboutus-mine-box'>
+        <image class='aboutus-mine-box-icon' src='../../images/mine/jianli.png'></image>
+        <text class='aboutus-mine-box-text'>意见反馈</text>
+        <image class='aboutus-mine-box-right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      </view>
+    </view>
+  </view>
+
+</view>

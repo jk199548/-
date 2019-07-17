@@ -1,0 +1,4 @@
+<view bindtap='lookmap'>查看地图</view>
+<view bindtap='checkmap'>当前的位置是:{{latitude}}  {{longitude}}点击查看地图</view>
+<view bindtap='choosemap'>选择地址</view>
+<view>我选择的位置是：{{nowlocation}}</view>

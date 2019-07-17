@@ -1,0 +1,193 @@
+<view class='box'>
+  
+  <!-- 轮播图 -->
+  <view class='head' >
+    <view class='seach'>
+      <view class='location'>
+        <image class='location-image' src='../../images/index/hot-detail-right-location.png' mode='aspectFit' style='width:30rpx;height:40rpx;'></image>
+        <text class='location-name'>成都</text>
+      </view>
+      <view class='shuxian'></view>
+      <image class='seach-icon' src='../../images/index/seach.png'></image>
+      <input class='location-input' placeholder='搜索你想要的工作、地址、公司' 
+      bindtap='toseach' disabled='true'></input>
+    </view>
+    <swiper class='swiper' indicator-dots='true' interval='3000' duration='1000' autoplay='true' indicator-color='gray' indicator-active-color='white' circular='true'>
+      <swiper-item class='swiper' wx:for="{{swiperurl}}" wx:key="{{item}}" data-index="{{index}}" bindtap='swiperclick'>
+        <image class='lunbo-images' src='{{item}}' mode='aspectFit'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 导航栏 -->
+  <view class='navigation'>
+    <view class='navigation-images'>
+      <image class='navigation-icon' src='../../images/index/dingzhi.png' mode='scaleToFill'></image>
+      <text class='navigation-text'>定制推荐</text>
+    </view>
+    <view class='navigation-images'>
+      <image class='navigation-icon' src='../../images/index/dingzhi.png' mode='scaleToFill'></image>
+      <text class='navigation-text'>定制推荐</text>
+    </view>
+    <view class='navigation-images'>
+      <image class='navigation-icon' src='../../images/index/dingzhi.png' mode='scaleToFill'></image>
+      <text class='navigation-text'>定制推荐</text>
+    </view>
+    <view class='navigation-images'>
+      <image class='navigation-icon' src='../../images/index/dingzhi.png' mode='scaleToFill'></image>
+      <text class='navigation-text'>定制推荐</text>
+    </view>
+  </view>
+  <!-- findjob -->
+  <view class='findjob'>
+    <text class='findjob-text'>你想要找什么样的工作?</text>
+    <view class='findjob-images-contanier'>
+      <image class='findjob-images' src='../../images/index/findjob1.png'></image>
+      <text class='findjob-images-text'>优选全职</text>
+    </view>
+    <view class='findjob-images-contanier'>
+      <image class='findjob-images' src='../../images/index/findjob1.png'></image>
+      <text class='findjob-images-text'>优选全职</text>
+    </view>
+    <view class='findjob-images-contanier'>
+      <image class='findjob-images' src='../../images/index/findjob1.png'></image>
+      <text class='findjob-images-text'>优选全职</text>
+    </view>
+  </view>
+  <!-- 热门推荐 -->
+  <view class='hot'>
+    <view class='hot-top'>
+      <image class='hot-top-image-left' src='../../images/index/hot-top-images.png' mode='scaleToFill'></image>
+      <text class='hot-top-text'>热门推荐</text>
+      <image class='hot-top-image-right' src='../../images/index/hot-top-images.png' mode='scaleToFill'></image>
+    </view>
+    <!-- 热门推荐详情 -->
+    <view class='hot-detail' bindtap='topositiondetail'>
+      <view class='hot-detail-left'>
+        <image class='hot-detail-left-images' src='../../images/index/findjob1.png' mode='scaleToFill'></image>
+      </view>
+      <view class='hot-detail-right'>
+        <text class='hot-detail-right-title'>京东物流分拣员</text>
+        <text class='hot-detail-right-price'>111元/小时</text>
+        <view class='hot-detail-right-intro'>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            五险
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+        </view>
+        <view class='hot-detail-right-avtarbox'>
+          <image class='hot-detail-right-avtar' src='../../images/index/hot-detail-avtar.png' mode='scaleToFill'></image>
+          <text class='hot-detail-right-name'>杨洋·人事</text>
+        </view>
+        <view class='conpanybox'>
+          <view class='hot-detail-right-conpanybox'>
+            <image class='hot-detail-right-conpany-icon' src='../../images/index/hot-detail-right-conpany.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-conpany-name'>成都怪糖科公司</text>
+          </view>
+          <view class='hot-detail-right-locationbox'>
+            <image class='hot-detail-right-location-icon' src='../../images/index/hot-detail-right-location.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-location-name'>武侯区晋阳</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='hot-detail'>
+      <view class='hot-detail-left'>
+        <image class='hot-detail-left-images' src='../../images/index/findjob1.png' mode='scaleToFill'></image>
+      </view>
+      <view class='hot-detail-right'>
+        <text class='hot-detail-right-title'>京东物流分拣员</text>
+        <text class='hot-detail-right-price'>111元/小时</text>
+        <view class='hot-detail-right-intro'>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+          <view class='hot-detail-right-intro-text'>
+            日薪
+          </view>
+        </view>
+        <view class='hot-detail-right-avtarbox'>
+          <image class='hot-detail-right-avtar' src='../../images/index/hot-detail-avtar.png' mode='scaleToFill'></image>
+          <text class='hot-detail-right-name'>杨洋·人事</text>
+        </view>
+        <view class='conpanybox'>
+          <view class='hot-detail-right-conpanybox'>
+            <image class='hot-detail-right-conpany-icon' src='../../images/index/hot-detail-right-conpany.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-conpany-name'>成都怪糖科公司</text>
+          </view>
+          <view class='hot-detail-right-locationbox'>
+            <image class='hot-detail-right-location-icon' src='../../images/index/hot-detail-right-location.png' mode='scaleToFill'></image>
+            <text class='hot-detail-right-location-name'>武侯区晋阳</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+    <!-- 查看更多按钮 -->
+    <view class='hot-detail-lookmore'>
+      <text class='hot-detail-lookmore-text'>查看更多</text>
+      <image class='hot-detail-lookmore-icon' src='../../images/index/hot-detail-lookmore-icon.png'></image>
+    </view>
+
+  <!-- 优秀雇主 -->
+  <view class='employers'>
+    <view class='employers-top'>
+      <image class='employers-top-image-left' src='../../images/index/hot-top-images.png' mode='scaleToFill'></image>
+      <text class='employers-top-text'>优秀雇主</text>
+      <image class='employers-top-image-right' src='../../images/index/hot-top-images.png' mode='scaleToFill'></image>
+    </view>
+    <view class='employers-detail'>
+      <view class='employers-detail-left'>
+        <image class='employers-detail-left-icon' src='../../images/index/remen.png' mode='scaleToFill'></image>
+        <image class='employers-detail-left-images' src='../../images/index/avtar.png' mode='scaleToFill'></image>
+        <text class='employers-detail-left-name'>富士康</text>
+        <text class='employers-detail-left-grade'>92分</text>
+        <text class='employers-detail-left-intro'>评价：公司环境好,福利待遇好,HR人也很热心,很有耐心公司环境好,福利待遇好,</text>
+      </view>
+      <view class='employers-detail-right'>
+          <view class='employers-detail-right-top'>
+            <image class='employers-detail-right-top-icon' src='../../images/index/remen.png' mode='scaleToFill'></image>
+            <text class='employers-detail-right-top-name'>京东</text>
+            <text class='employers-detail-right-top-grade'>90分</text>
+            <text class='employers-detail-right-top-intro'>评价：公司环境好,福利待遇好,HR评价：公司环境好,福利待遇好,HR人</text>
+            <image class='employers-detail-right-top-images' src='../../images/index/jd.png' mode='scaleToFill'></image>
+          </view>
+          <view class='employers-detail-right-top'>
+            <image class='employers-detail-right-top-icon' src='../../images/index/remen.png' mode='scaleToFill'></image>
+            <text class='employers-detail-right-top-name'>京东</text>
+            <text class='employers-detail-right-top-grade'>90分</text>
+            <text class='employers-detail-right-top-intro'>评价：公司环境好,福利待遇好,HR评价：公司环境好,福利待遇好,HR人</text>
+            <image class='employers-detail-right-top-images' src='../../images/index/jd.png' mode='scaleToFill'></image>
+          </view>
+      </view>
+    </view>
+    
+  </view>
+
+  <!-- 底部广告图 -->
+  <view class='bottom-images'>
+    <image class='bottom-images-ad' src='../../images/index/bottom-ad.png' mode='aspectFit'></image>
+  </view>
+
+
+</view>

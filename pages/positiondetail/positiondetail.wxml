@@ -1,0 +1,198 @@
+<!--职位详情页面-->
+<view class='coverview' >
+<view class='end'>已结束</view>
+</view>
+<view class='box'>
+  <!-- 轮播图 -->
+  <view class='head' >
+    <swiper class='swiper' indicator-dots='true' interval='3000' duration='1000' autoplay='true' indicator-color='gray' indicator-active-color='white' circular='true'>
+      <swiper-item class='swiper'>
+        <image class='lunbo-images' src='../../images/index/lunbo.png' mode='scaleToFill'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='lunbo-images' src='../../images/index/lunbo1.png' mode='scaleToFill'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='lunbo-images' src='../../images/index/lunbo2.png' mode='scaleToFill'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 详情 -->
+  <view class='position-detail'>
+     <view class='postion-safe'>
+      <image class='position-safe-icon' src='../../images/positiondetail/icon_safety_fill.png' mode='scaleToFill'></image>
+      <text class='position-safe-text'>该职位和招聘者已通过平台审核，请放心报名哟~</text>
+     </view>
+     <view class='position-name'>
+        <text class='position-name-text'>物美直聘专职拣货员</text>
+        <view class='position-share'>
+          <image class='position-share-icon' src='../../images/positiondetail/share.png' mode='aspectFit'></image>
+          <text class='position-share-text'>分享</text>
+        </view>
+        <view class='position-shoucang'>
+          <image class='position-shoucang-icon' src='../../images/positiondetail/shoucang.png' mode='aspectFit'></image>
+          <text class='position-shoucang-text'>收藏</text>
+        </view>
+      </view>
+      <view class='position-price'>
+        <text class='position-price-text'>18</text>
+        <text class='position-price-text-1'>元/小时</text>
+        <view class='position-price-num'>
+          <view class='position-price-num-left'>
+            <text class='position-price-people'>招</text>
+            <text class='position-price-people-num'>100</text>
+            <text class='position-price-people-text'>人</text>
+          </view>
+          <view class='position-price-num-left'>
+            <text class='position-price-people'>已招</text>
+            <text class='position-price-people-num'>100</text>
+            <text class='position-price-people-text'>人</text>
+          </view>
+        </view>
+      </view>
+      <view class='fuli'>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/zhusu1.png' mode='aspectFit'></image>
+          <text class='fuli-text'>包住宿</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/food.png' mode='aspectFit'></image>
+          <text class='fuli-text'>包工作餐</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/baoxian.png' mode='aspectFit'></image>
+          <text class='fuli-text'>五险一金</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/ticheng.png' mode='aspectFit'></image>
+          <text class='fuli-text'>提成</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/holiday.png' mode='aspectFit'></image>
+          <text class='fuli-text'>带薪年假</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/jiaban.png' mode='aspectFit'></image>
+          <text class='fuli-text'>加班补助</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/buzhu.png' mode='aspectFit'></image>
+          <text class='fuli-text'>交通补助</text>
+        </view>
+        <view class='fuli-box'>
+          <image class='fuli-icon' src='../../images/positiondetail/lingshi.png' mode='aspectFit'></image>
+          <text class='fuli-text'>零食提供</text>
+        </view>
+      </view>
+      <view class='position-require'>
+        <view class='position-require-text'>年龄要求：18~40岁</view>
+        <view class='position-require-text'>学历要求：不限</view>
+        <view class='position-require-text'>经验要求：不限</view>
+        <view class='position-require-text'>结算方式：日结</view>
+      </view>
+      <!-- 查看更多按钮 -->
+      <view class='position-require-lookmore'>
+        <text class='position-require-lookmore-text'>查看更多</text>
+        <image class='position-require-lookmore-icon' src='../../images/index/hot-detail-lookmore-icon.png'></image>
+      </view>
+    </view>
+    <!-- 职位发布者 -->
+    <view class='position-publisher'>职位发布者</view>
+    <view class='position-publisher-detail'>
+      <image class='position-publisher-avtar' src='../../images/index/avtar.png' mode='scaleToFill'></image>
+      <text class='position-publisher-name'>欧阳锋 | 个人</text>
+      <text class='position-publisher-lookmore'>查看资料</text>
+      <image class='right' src='../../images/mine/more.png' mode='scaleToFill'></image>
+      <text class='jinpai'>金牌雇主</text>
+      <text class='ago'>查看以往招聘记录</text>
+    </view>
+    <!-- 职位详情 -->
+    <view class='detail'>职位详情</view>
+    <view class='position-zige'>
+      <text class='text'>任职资格:</text>
+      <view class='require'>
+        <view class='require-text'>
+          <text>18-35周岁，吃苦耐劳</text>              
+        </view>
+        <view class='require-text'>
+          <text>18-35周岁，吃苦耐劳</text>              
+        </view>
+        <view class='require-text'>
+          <text>18-35周岁，吃苦耐劳</text>              
+        </view>
+      </view>
+      <text class='require-fuli'>福利:</text>
+      <view class='require-fuli-box'>
+        <text>社会统筹保险、年假、节日礼券、生日礼物等社会统筹保险、年假、节日礼券、生日礼物等社会统筹保险、年假、节日礼券、生日礼物等</text>
+      </view>
+      <text class='require-name'>拣货员:</text>
+      <view class='require-name-detail'>
+        <text>基本工资+奖金 +社会保险+4天休息/月,底薪1910+提成，月6000-10000</text>
+      </view>
+      <text class='conpany'>公司介绍</text>
+      <view class='conpany-intro'>
+        <text class='conpany-intro-text'>本公司不断追求卓越创新,以绿色健康饮食为主导,坚持以诚信经营永续发展的经营理念不断健全其经营体系,逐步完善自身的管理系统;同时凭着先进的管理方式,以品质、服务、卫生</text>
+        <text class='lookmore'>查看更多</text>         
+      </view>
+      <text class='work-position'>工作地点</text>
+      <text style='font-size:28rpx;color:#9d9d9d;margin-left:415rpx;'>3.70km</text>
+      <image class='' src='../../images/mine/more.png' style='width:14rpx;height:26rpx;margin-left:5rpx;' mode='scaleToFill'></image>
+      <view class='mapbox'>
+        <map latitude='{{latitude}}' longitude='{{longitude}}' style='width:690rpx;height:365rpx;' show-location></map>
+      </view>
+      <view class='hengxian'></view>
+      <text class='position-process'>入职流程</text>
+      <view class='liuchengbox'>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/gonggao.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>选择职位</text>
+        </view>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/baoming.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>点击报名</text>
+        </view>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/gonggao.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>初审通过</text>
+        </view>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/gonggao.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>接送面试</text>
+        </view>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/gonggao.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>入职期满</text>
+        </view>
+        <view class='liuchengbox-one'>
+          <image class='liuchengbox-one-image' src='../../images/positiondetail/gonggao.png' mode='aspectFit'></image>
+          <text class='liuchengbox-one-text'>领取入职奖</text>
+        </view>
+      </view>
+      <view class='notice'>
+        <image class='notice-icon' src='../../images/positiondetail/notice.png' mode='aspectFit'></image>
+        <text class='notice-text'>若兼职中商家要求扫码付款或通过其他方式收取费用，
+请提高警惕并拒绝缴纳，同时向客服投诉.</text>
+      </view>
+    </view>
+    
+</view>
+
+<!-- 底部导航 -->
+<view class='bottom'>
+  <view class='bottom-left'>
+    <view class='bottom-left-box'>
+      <image class='bottom-left-icon' src='../../images/positiondetail/phone.png' mode='aspectFit'></image>
+      <text class='bottom-left-text'>打电话</text>
+    </view>
+    <view class='bottom-left-box'>
+      <image class='bottom-right-icon' src='../../images/positiondetail/wechat.png' mode='aspectFit'></image>
+      <text class='bottom-right-text'>沟通咨询</text>
+    </view>
+  </view>
+  <view class='bottom-right'>
+    立即报名
+  </view>
+
+</view>
+

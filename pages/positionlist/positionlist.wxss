@@ -1,0 +1,128 @@
+.top{
+  width: 100%;
+  border-top: 1rpx solid #f3f3f3;
+  border-bottom: 1rpx solid #f3f3f3;
+}
+.haschooseposition{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 32rpx;
+  margin-top: 40rpx;
+}
+.haschooseposition-list{
+  width: 650rpx;
+  display: flex;
+  justify-content:start;
+  align-content:space-between;
+  flex-direction: row;
+  margin-left: 50rpx;
+  margin-top: 30rpx;
+  margin-right: 50rpx;
+  line-height: 108rpx;
+  flex-wrap: wrap;
+}
+.haschooselist-list-name{
+  float: left;
+  height: 62rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  line-height: 62rpx;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #333333;
+  background:rgba(244,244,244,1);
+  border-radius:10rpx;
+}
+.positionlist{
+  
+}
+.positionlist-left{
+  width: 180rpx;
+  float: left;
+  background:rgba(204,204,204,1);
+}
+.positionlist-left-list-normal{
+  height: 90rpx;
+  width: 180rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  text-align: center;
+  border-top: 1rpx solid #ffffff;
+}
+.positionlist-left-list-active{
+  height: 90rpx;
+  width: 180rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+}
+.positionlist{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.positionlist-right{
+  width: 570rpx;
+  
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 90rpx;
+}
+.position-right-list{
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  font-size: 26rpx;
+  
+  color: #333333;
+  height: 60rpx;
+  line-height: 60rpx;
+  background:rgba(244,244,244,1);
+  border-radius:10rpx;
+  padding-left: 46rpx;
+  padding-right: 46rpx;
+  text-align: center;
+
+}
+.completebtn-active{
+  position: fixed;
+  left: 30rpx;
+  bottom: 100rpx;
+  width: 690rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size:44rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:bold;
+  color:rgba(255,254,254,1);
+  background-color: #ff7315;
+  text-align: center;
+  border-radius: 50rpx;
+}
+
+.completebtn-normal{
+  position: fixed;
+  left: 30rpx;
+  bottom: 100rpx;
+  width: 690rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size:44rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:bold;
+  color:rgba(255,254,254,1);
+  background:rgba(204,204,204,1);
+
+  text-align: center;
+  border-radius: 50rpx;
+}

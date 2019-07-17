@@ -1,0 +1,270 @@
+/* pages/mine/mine.wxss */
+.bigbox{
+  overflow-x: hidden;
+}
+.box{
+  height: 452rpx;
+  position: relative;
+}
+.mine-banner{
+  width: 100%;
+  height: 340rpx;
+}
+.banner{
+  width: 100%;
+  height: 340rpx;
+}
+.head-box{
+  width: 690rpx;
+  height: 419rpx;
+  position: absolute;
+  left: 29rpx;
+  top: 35rpx;
+}
+.head-banner{
+  width: 690rpx;
+  height: 419rpx;
+}
+.head-avtar-box{
+  width:150rpx;
+  height: 150rpx;
+  border: 4rpx solid #ffb301;
+  position: absolute;
+  left: 30rpx;
+  top: 47rpx;
+  border-radius: 50%;
+}
+.head-avtar{
+  width: 150rpx;
+  height: 150rpx;
+}
+.head-name-text{
+  display: block;
+  position: absolute;
+  left: 220rpx;
+  top:51rpx;
+  font-size:40rpx;
+  font-weight: bold;
+}
+.bianji{
+  width: 23rpx;
+  height: 23rpx;
+  position: absolute;
+  right: 72rpx;
+  top: 57rpx;
+}
+.head-phonenum{
+  width: 461rpx;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 222rpx;
+  top: 128rpx;
+}
+.phonenum{
+  font-size: 28rpx;
+}
+.pingjia{
+  font-size: 28rpx;
+  font-weight: bold;
+  position: absolute;
+  right: 66rpx;
+}
+.head-intro{
+  position: absolute;
+  left: 221rpx;
+  top: 174rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28rpx;
+  
+}
+.head-sex{
+  padding-right: 10rpx;
+}
+.head-age{
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.head-school{
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.head-ex{
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.head-money{
+  width: 100%;
+  height: 90rpx;
+  position: absolute;
+  left: 0rpx;
+  top: 276rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.head-money-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 97rpx;
+}
+.head-money-left-icon{
+  width: 32rpx;
+  height: 34rpx;
+}
+.head-money-left-text{
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 22rpx;
+}
+.head-money-left-money{
+font-size: 28rpx;
+color: #f77201;
+font-weight: bold;
+}
+.head-money-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head-money-right-text{
+  font-size: 30rpx;
+  color: #333333;
+  margin-top: 22rpx;
+}
+.personal-box{
+  width: 690rpx;
+  height: 347rpx;
+  margin-top: 23rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+.personal-msg{
+  width: 690rpx;
+  height: 347rpx;
+  border-radius: 5px;
+  box-shadow: 5rpx 5rpx 30rpx 4rpx #e4e4e4;
+  -webkit-box-shadow:0px 0px 15px 2px #e4e4e4;
+}
+.personal-msg-box{
+  height: 33.33%;
+  width: 620rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 31rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+.personal-msg-box-icon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.personal-msg-box-text{
+  font-size: 32rpx;
+  margin-left: 24rpx;
+  color: #4d4d4d;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.personal-msg-box-right{
+  margin-left: 426rpx;
+  width: 12rpx;
+  height: 21rpx;
+}
+
+.box{
+  overflow-x: hidden;
+}
+.minejob-box{
+  width: 690rpx;
+  height: 457rpx;
+  margin-top: 23rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+.minejob-job{
+  width: 690rpx;
+  height: 437rpx;
+  border-radius: 5px;
+  box-shadow: 5rpx 5rpx 30rpx 4rpx #e4e4e4;
+  -webkit-box-shadow:0px 0px 15px 2px #e4e4e4;
+}
+.minejob-job-box{
+  height: 25%;
+  width: 620rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 31rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+.minejob-job-box-icon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.minejob-job-box-text{
+  font-size: 32rpx;
+  margin-left: 24rpx;
+  color: #4d4d4d;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.minejob-job-box-right{
+  margin-left: 426rpx;
+  width: 12rpx;
+  height: 21rpx;
+}
+
+
+
+.aboutus-box{
+  width: 690rpx;
+  height: 347rpx;
+  margin-top: 23rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+.aboutus-mine{
+  width: 690rpx;
+  height: 347rpx;
+  border-radius: 5px;
+  box-shadow: 5rpx 5rpx 30rpx 4rpx #e4e4e4;
+  -webkit-box-shadow:0px 0px 15px 2px #e4e4e4;
+}
+.aboutus-mine-box{
+  height: 33.33%;
+  width: 620rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 31rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+.aboutus-mine-box-icon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.aboutus-mine-box-text{
+  font-size: 32rpx;
+  margin-left: 24rpx;
+  color: #4d4d4d;
+  font-weight: 400;
+  height: 32rpx;
+  line-height: 32rpx;
+}
+.aboutus-mine-box-right{
+  margin-left: 426rpx;
+  width: 12rpx;
+  height: 21rpx;
+}
